@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage
+    x:Class="TabElementAndreev.Views.SecondView"
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    Title="Уведомления">
+
+    <ScrollView>
+        <VerticalStackLayout>
+            <Label
+                Padding="10"
+                FontAttributes="Bold"
+                FontSize="16"
+                Text="Все уведомления"
+                VerticalOptions="Center" />
+
+            <Grid>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="50" />
+                    <RowDefinition Height="50" />
+                    <RowDefinition Height="50" />
+                    <RowDefinition Height="50" />
+                    <RowDefinition Height="50" />
+                </Grid.RowDefinitions>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition />
+                </Grid.ColumnDefinitions>
+
+                <Label
+                    Grid.Row="0"
+                    Padding="10"
+                    FontSize="14"
+                    HorizontalOptions="Start"
+                    Text="Вам пришло сообщение" />
+
+                <Label
+                    Grid.Row="1"
+                    Padding="10"
+                    FontSize="14"
+                    HorizontalOptions="Start"
+                    Text="Пользователь упомянул вас" />
+
+                <Label
+                    Grid.Row="2"
+                    Padding="10"
+                    FontSize="14"
+                    HorizontalOptions="Start"
+                    Text="Ваш комментарий оценили" />
+
+                <Label
+                    Grid.Row="3"
+                    Padding="10"
+                    FontSize="14"
+                    HorizontalOptions="Start"
+                    Text="Скидки в магазине" />
+
+                <Label
+                    Grid.Row="4"
+                    Padding="10"
+                    FontSize="14"
+                    HorizontalOptions="Start"
+                    Text="Вышло обновление" />
+            </Grid>
+        </VerticalStackLayout>
+    </ScrollView>
+
+</ContentPage>

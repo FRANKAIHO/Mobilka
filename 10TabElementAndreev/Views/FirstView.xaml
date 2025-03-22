@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage
+    x:Class="TabElementAndreev.Views.FirstView"
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    Title="Главная">
+
+    <ScrollView>
+        <VerticalStackLayout>
+            <Label
+                Padding="10"
+                FontAttributes="Bold"
+                FontSize="16"
+                Text="Новости"
+                VerticalOptions="Center" />
+
+            <Grid>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="50" />
+                    <RowDefinition Height="50" />
+                    <RowDefinition Height="50" />
+                    <RowDefinition Height="50" />
+                    <RowDefinition Height="50" />
+                </Grid.RowDefinitions>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition />
+                </Grid.ColumnDefinitions>
+
+                <Label
+                    Grid.Row="0"
+                    Padding="10"
+                    FontSize="14"
+                    HorizontalOptions="Start"
+                    Text="YouTube заблокировали" />
+
+                <Label
+                    Grid.Row="1"
+                    Padding="10"
+                    FontSize="14"
+                    HorizontalOptions="Start"
+                    Text="Вышла новая платформа от VK" />
+
+                <Label
+                    Grid.Row="2"
+                    Padding="10"
+                    FontSize="14"
+                    HorizontalOptions="Start"
+                    Text="Яндекс отрегулировал цена на такси" />
+
+                <Label
+                    Grid.Row="3"
+                    Padding="10"
+                    FontSize="14"
+                    HorizontalOptions="Start"
+                    Text="Открылся завод ICL" />
+
+                <Label
+                    Grid.Row="4"
+                    Padding="10"
+                    FontSize="14"
+                    HorizontalOptions="Start"
+                    Text="Вылеты с аэропорта временно приостановлены" />
+            </Grid>
+        </VerticalStackLayout>
+    </ScrollView>
+
+</ContentPage>

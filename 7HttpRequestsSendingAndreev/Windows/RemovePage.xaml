@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage
+    x:Class="HttpRequestsSendingAndreev.Windows.RemovePage"
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    Title="RemovePage">
+    <VerticalStackLayout>
+        <VerticalStackLayout>
+            <ScrollView>
+                <VerticalStackLayout
+                    Padding="30,0"
+                    Spacing="25"
+                    VerticalOptions="Center">
+
+                    <Entry x:Name="IdEntry" Placeholder="Id" />
+
+
+                    <Button
+                        Background="Green"
+                        Clicked="Remove_Clicked"
+                        Text="Удалить"
+                        TextColor="Gold" />
+                </VerticalStackLayout>
+
+            </ScrollView>
+        </VerticalStackLayout>
+    </VerticalStackLayout>
+</ContentPage>

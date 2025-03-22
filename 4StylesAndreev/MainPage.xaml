@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage
+    x:Class="StylesAndreev.MainPage"
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml">
+
+
+    <ScrollView>
+        <VerticalStackLayout Padding="20,0" VerticalOptions="Center">
+
+            <VerticalStackLayout Spacing="20">
+
+                <Button Style="{StaticResource ButtonStyleBase}" Text="Базовый стиль для элемента Button" />
+
+                <Button Style="{StaticResource ButtonStyle1}" Text="Стиль с ключом для элемента ButtonStyle1" />
+
+                <Button Style="{StaticResource ButtonStyle2}" Text="Стиль с ключом для элемента ButtonStyle2" />
+
+            </VerticalStackLayout>
+
+            <VerticalStackLayout Spacing="20">
+
+                <Label Style="{StaticResource LabelStyleBase}" Text="Базовый стиль для элемента Label" />
+
+                <Label Style="{StaticResource LabelStyle1}" Text="Стиль с ключом для элемента LabelStyle1" />
+
+                <Label Style="{StaticResource ButtonStyle2}" Text="Стиль с ключом для элемента LabelStyle2" />
+
+            </VerticalStackLayout>
+
+        </VerticalStackLayout>
+
+    </ScrollView>
+
+</ContentPage>
